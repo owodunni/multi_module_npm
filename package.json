@@ -1,0 +1,16 @@
+{
+  "name": "multi-monorepo",
+  "private": true,
+  "license": "MIT",
+  "repository": "github:owodunni/multi_module_npm",
+  "scripts": {
+    "compile": "tsc --build tsconfig.build.json"
+  },
+  "dependencies": {
+    "multi-counter": "file:packages/multi-counter"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.5"
+  }
+}
