@@ -1,0 +1,20 @@
+{
+  "name": "multi-logger",
+  "version": "0.1.0",
+  "author": "Alexander Poole <alex.o.poole@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owodunni/multi_module_npm",
+    "directory": "packages/multi-counter"
+  },
+  "homepage": "https://github.com/owodunni/multi_module_npm#readme",
+  "bugs": {
+    "url": "https://github.com/owodunni/multi_module_npm/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "multi-counter": "file:../multi-counter"
+  }
+}
