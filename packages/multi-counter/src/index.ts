@@ -5,6 +5,7 @@ export class MultiCounter {
   }
 
   counter(): number {
-    return this.count++;
+    this.count++;
+    return this.count;
   }
-};
+}
